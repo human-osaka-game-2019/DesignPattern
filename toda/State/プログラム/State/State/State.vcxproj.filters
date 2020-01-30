@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DayState">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="NightSate">
+      <UniqueIdentifier>{a5afa731-dcfa-426c-bc8d-d0b15a8256b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SafeFrame">
+      <UniqueIdentifier>{36701f16-de22-4d6b-ac51-0f31ae90d237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enum">
+      <UniqueIdentifier>{f25250f6-d2d3-4820-a639-5c3151ef0018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{46375a70-4e5f-465a-875d-5f863e695898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NoonState">
+      <UniqueIdentifier>{5606cb0e-5bd6-402a-bea9-27c9761cb517}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DayState.cpp">
+      <Filter>DayState</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="NightState.cpp">
+      <Filter>NightSate</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeFrame.cpp">
+      <Filter>SafeFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>NoonState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DayState.h">
+      <Filter>DayState</Filter>
+    </ClInclude>
+    <ClInclude Include="NightState.h">
+      <Filter>NightSate</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeFrame.h">
+      <Filter>SafeFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionEvent.h">
+      <Filter>Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="IContext.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IStaet.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="NoonState.h">
+      <Filter>NoonState</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
